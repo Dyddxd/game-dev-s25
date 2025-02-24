@@ -75,6 +75,7 @@ const float4x4 cg::world::camera::get_view_matrix() const
 	};
 }
 
+
 #ifdef DX12
 const DirectX::XMMATRIX cg::world::camera::get_dxm_view_matrix() const
 {
